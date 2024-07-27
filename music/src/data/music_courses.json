@@ -1,0 +1,84 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Music Theory",
+            "slug": "music-theory",
+            "description": "Learn the basics of music theory.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "music-theory.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Guitar Lessons",
+            "slug": "guitar-lessons",
+            "description": "Learn how to play the guitar.",
+            "price": 149.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "guitar-lessons.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Piano Lessons",
+            "slug": "piano-lessons",
+            "description": "Learn how to play the piano.",
+            "price": 149.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "piano-lessons.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Singing Lessons",
+            "slug": "singing-lessons",
+            "description": "Learn how to sing.",
+            "price": 149.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "singing-lessons.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Music Production",
+            "slug": "music-production",
+            "description": "Learn how to produce music.",
+            "price": 199.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "music-production.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Music Composition",
+            "slug": "music-composition",
+            "description": "Learn how to compose music.",
+            "price": 199.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "music-composition.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Music History",
+            "slug": "music-history",
+            "description": "Learn about the history of music.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "music-history.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Music Business",
+            "slug": "music-business",
+            "description": "Learn about the business side of music.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "music-business.jpg"
+        }
+    ]
+}

@@ -26,7 +26,7 @@ const HeroSection = () => {
         borderRadius="1.75rem"
         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
-        Borders are cool
+        Explore Courses
       </Button>
           </Link>
         </div>

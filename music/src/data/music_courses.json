@@ -8,7 +8,7 @@
             "price": 99.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "music-theory.jpg"
+            "image": "musictheory"
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
             "price": 149.99,
             "instructor": "Nott hash",
             "isFeatured": true,
-            "image": "guitar-lessons.jpg"
+            "image": "guitarlessons"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "price": 149.99,
             "instructor": "Jane Doe",
             "isFeatured": false,
-            "image": "piano-lessons.jpg"
+            "image": "pianolessons"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "price": 249.99,
             "instructor": "Walsh Fork",
             "isFeatured": true,
-            "image": "singing-lessons.jpg"
+            "image": "singinglessons"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "price": 199.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "music-production.jpg"
+            "image": "musicproduction"
         },
         {
             "id": 6,
@@ -58,27 +58,27 @@
             "price": 199.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "music-composition.jpg"
+            "image": "musiccomposition"
         },
         {
             "id": 7,
             "title": "Music History",
             "slug": "music-history",
             "description": "Learn about the history of music.",
-            "price": 99.99,
+            "price": 399.99,
             "instructor": "John Doe",
             "isFeatured": false,
-            "image": "music-history.jpg"
+            "image": "musichistory"
         },
         {
             "id": 8,
             "title": "Music Business",
             "slug": "music-business",
-            "description": "Learn about the business side of music.",
+            "description": "Learn about the business side.",
             "price": 99.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "music-business.jpg"
+            "image": "musicbusiness"
         }
     ]
 }

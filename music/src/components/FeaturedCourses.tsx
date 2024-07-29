@@ -3,6 +3,14 @@ import Link from "next/link";
 import courseData from "../data/music_courses.json";
 import { Button } from "./ui/moving-border";
 import { BackgroundGradient } from "./ui/background-gradient";
+import musictheory from "../data/music_theory.jpg"
+import guitarlessons from "../data/Guitar_Lessons.jpg"
+import pianolessons from "../data/Piano_Lessons.jpg"
+import singinglessons from "../data/Singing_Lessons.jpg"
+import musicproduction from "../data/Music_Production.jpg"
+import musicbusiness from "../data/Muisc_Business.jpg"
+import musichistory from "../data/Music_History.jpg"
+import musiccomposition from "../data/Music_Composition.jpg"
 import Image from "next/image";
 
 interface Course {
@@ -37,14 +45,18 @@ const FeaturedCourses = () => {
               key={course.id}
               className="bg-white dark:bg-zinc-900 rounded-[22px] overflow-hidden shadow-lg"
             >
-                <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
-        <Image
-          src={`/jordans.webp`}
-          alt="jordans"
-          height="400"
-          width="400"
-          className="object-contain"
-        />
+                <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 md:h-200px">
+                    {course.image === "guitarlessons" && <Image src= {guitarlessons} alt={course.image} />}
+                    {course.image === "pianolessons" && <Image src= {pianolessons} alt={course.image} />}
+                    {course.image === "singinglessons" && <Image src= {singinglessons} alt={course.image} />}
+                    {course.image === "musicproduction" && <Image src= {musicproduction} alt={course.image} />}
+                    {course.image === "musicbusiness" && <Image src= {musicbusiness} alt={course.image} />}
+                    {course.image === "musichistory" && <Image src= {musichistory} alt={course.image} />}
+                    {course.image === "musiccomposition" && <Image src= {musiccomposition} alt={course.image} />}
+                    {course.image === "musictheory" && <Image src= {musictheory} alt={course.image} />}
+        <p className="mt-5 text-xs text-neutral-500 dark:text-neutral-400">
+            {course.instructor}
+        </p>
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           {course.title}
         </p>

@@ -8,7 +8,7 @@
             "price": 99.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "musictheory"
+            "image": "/courses/music_theory.jpg"
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
             "price": 149.99,
             "instructor": "Nott hash",
             "isFeatured": true,
-            "image": "guitarlessons"
+            "image": "/courses/Guitar_Lessons.jpg"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "price": 149.99,
             "instructor": "Jane Doe",
             "isFeatured": false,
-            "image": "pianolessons"
+            "image": "/courses/Piano_Lessons.jpg"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "price": 249.99,
             "instructor": "Walsh Fork",
             "isFeatured": true,
-            "image": "singinglessons"
+            "image": "/courses/Singing_Lessons.jpg"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "price": 199.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "musicproduction"
+            "image": "/courses/Music_Production.jpg"
         },
         {
             "id": 6,
@@ -58,7 +58,7 @@
             "price": 199.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "musiccomposition"
+            "image": "/courses/Music_Composition.jpg"
         },
         {
             "id": 7,
@@ -68,7 +68,7 @@
             "price": 399.99,
             "instructor": "John Doe",
             "isFeatured": false,
-            "image": "musichistory"
+            "image": "/courses/Music_History.jpg"
         },
         {
             "id": 8,
@@ -78,7 +78,7 @@
             "price": 99.99,
             "instructor": "John Doe",
             "isFeatured": true,
-            "image": "musicbusiness"
+            "image": "/courses/Music_Business.jpg"
         }
     ]
 }

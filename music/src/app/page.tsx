@@ -3,6 +3,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { GridBackgroundDemo } from "@/components/GridBg";
 import { FeaturedWebinars } from "@/components/FeaturedWebinars";
+import { Instructors } from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyChooseUs />
       <GridBackgroundDemo />
       <FeaturedWebinars />
+      <Instructors />
     </main>
   );
 }

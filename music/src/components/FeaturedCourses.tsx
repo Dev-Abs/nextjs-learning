@@ -83,7 +83,7 @@ const FeaturedCourses = () => {
               borderRadius="1.75rem"
               className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
-              View all courses
+              View All Courses
             </Button>
           </Link>
         </div>

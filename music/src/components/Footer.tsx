@@ -54,6 +54,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+        <div className="bg-black text-white text-center py-4">
+            <p>&copy; 2024 Music Website. All rights reserved.</p>
+        </div>
     </footer>
   );
 };

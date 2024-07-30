@@ -4,6 +4,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import { GridBackgroundDemo } from "@/components/GridBg";
 import { FeaturedWebinars } from "@/components/FeaturedWebinars";
 import { Instructors } from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <GridBackgroundDemo />
       <FeaturedWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 }

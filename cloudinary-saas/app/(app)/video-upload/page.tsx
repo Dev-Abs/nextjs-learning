@@ -33,7 +33,7 @@ function VideoUpload() {
             // check for 200 response
             if (!(response.status === 200)) throw new Error("Failed to upload video")
             const data = await response.data;
-            router.push("/")
+            router.push("/home")
         } catch (error) {
             console.log(error)
             // notification for failure
